@@ -9,7 +9,7 @@ public class Lotto {
 		new Lotto().getLotto();
 	}
 
-	int[] getLotto() {
+	public int[] getLotto() {
 		int[] numbers = new int[6];
 		
 		for (int i = 0; i < 6; i++) {
